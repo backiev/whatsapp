@@ -10,7 +10,7 @@ export const Sidebar = () => {
          <Avatar />
       </div>
       <div className='bg-[#111b21] flex'>
-         <Input placeholder="Search......"/>
+        <div className='basis-5/6'><Input placeholder="Сообщение..."/></div>
       </div>
       <div className='flex bg-[#111b21] flex-col flex-grow'>
          <SidebarChat />
