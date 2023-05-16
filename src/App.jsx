@@ -1,14 +1,16 @@
 // import { useState } from 'react'
 import './App.css'
+import { Sidebar } from './components/Sidebar'
+import { Chat } from './components/Chat'
+
 
 export const  App = () => {
-  // const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='text-3xl font-bold underline'>
-        <div>1</div>
-        <div>2</div>
+      <div className='max-w-7xl mx-auto flex h-screen'>
+        <Sidebar />
+        <Chat />
       </div>
     </>
   )
